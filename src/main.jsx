@@ -16,7 +16,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <ContextProvider>
           <BrowserRouter>
             <ToastContainer />
-
             <App />
           </BrowserRouter>
         </ContextProvider>

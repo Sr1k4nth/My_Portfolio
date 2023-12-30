@@ -1,0 +1,77 @@
+.home-container {
+  display: grid;
+  grid-template-rows: auto auto;
+  position: relative;
+  .home-imge{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    .home-back{
+        overflow-x: hidden;
+        width: 50%;
+        -webkit-transform: scaleX(-1);
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        transform: scaleX(-1);
+      }
+  }
+  .home-myself {
+    width: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    z-index: 2;
+    span {
+      font-size: 50px;
+      font-weight: 700;
+      #spin {
+        color: $primary-color;
+        text-transform: uppercase;
+        &:after {
+          content: "";
+          animation: spin 20s infinite;
+        }
+      }
+    }
+    p {
+      width: 650px;
+      font-size: 18px;
+      color: $font-color-primary;
+      font-family: $font-family-primary;
+      line-height: 25px;
+    }
+    button {
+      width: 250px;
+      height: 70px;
+      background-color: $primary-color;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: 400;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
+
+@keyframes spin {
+  0% {
+    content: "FrontEnd Developer";
+  }
+  20% {
+    content: "Coder";
+  }
+  40% {
+    content: "React js Developer";
+  }
+  100% {
+    content: "Designer";
+  }
+}

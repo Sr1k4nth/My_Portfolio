@@ -1,0 +1,13 @@
+.defaultLayout_container {
+  display: flex;
+  .sidemenu_section {
+    width: 360px;
+    background-color: #09101A;
+    height: 100vh;
+  }
+  .body_section{
+    width: 100%;
+    color: aliceblue;
+    background-size: cover;
+  }
+}
