@@ -1,0 +1,145 @@
+@import url("../config/_fonts.scss");
+
+@import "../config/_variables.scss";
+@import "../config/_mixins.scss";
+
+// 1. Components
+
+// 2. Config
+// 3. Structure
+
+//Main
+@import url("../config/_main.scss");
+
+//Mixin Functions
+
+//Variables
+
+//Test
+@import url("../pages/home.scss");
+
+@import url("../pages/casinoHome.scss");
+
+//Tab  Components
+@import url("../components/tab.scss");
+
+@import url("../components//slotTab.scss");
+
+@import url("../components/background.scss");
+
+@import url("../pages/modal.scss");
+
+@import url("../pages/navbar.scss");
+
+@import url("../pages/register.scss");
+
+@import url("../pages//login.scss");
+
+@import url("../components/hexagonButton.scss");
+
+@import url("../components/joystick.scss");
+
+@import url("../pages/faq.scss");
+
+@import url("../pages/privacypolicy.scss");
+
+@import url("../components/slider.scss");
+
+@import url("../components/TopGames.scss");
+
+@import url("../components/winner.scss");
+@import url("../components/tabprovider.scss");
+@import url("../components/ComponentSlider.scss");
+
+@import url("../components//teamCard.scss");
+@import url("../pages/myAccount.scss");
+@import url("../pages/exchangeHome.scss");
+
+@import url("../components/SubDevTitles.scss");
+
+@import url("../components/AccordionBox.scss");
+
+@import url("../components/playerReview.scss");
+
+@import url("../components/transaction.scss");
+
+// Wallet components
+
+@import url("../pages/wallet.scss");
+@import url("../components/walletCard.scss");
+@import url("../components/SubCard.scss");
+@import url("../components/transactionDetail.scss");
+@import url("../pages/depositHome.scss");
+@import url("../components/depsoitContent.scss");
+@import url("../components/depositAmount.scss");
+@import url("../components/depositPayment.scss");
+@import url("../components/basicModal.scss");
+@import url("../pages//transferFund.scss");
+
+//  My Account
+@import url('../components/accountCard.scss');
+@import url('../components/accountPagesCard.scss');
+@import url('../pages/myDetails.scss');
+@import url('../pages/editProfile.scss');
+@import url('../pages/settings.scss');
+@import url('../pages/payments.scss');
+@import url('../pages/accDetail.scss');
+@import url('../pages/lastLogin.scss');
+@import url('../components/lastLoginCard.scss');
+@import url('../components/settingsLanguage.scss');
+@import url('../components/displayOptions.scss');
+@import url('../components/marketPreference.scss');
+@import  url('../components/quickStakes.scss');
+@import url('../pages/tickets.scss');
+@import url('../pages/profileScreen.scss');
+@import url('../components/selectInput.scss');
+@import url('../components/resetBonus.scss');
+// Pages
+@import "../pages/newhome";
+
+@import url("../components/MeetingCard.scss");
+@import url("../components/waggaTime.scss");
+@import url("../components/BoxContainer.scss");
+// @import url("../components/providerCasino.scss");
+//Sports
+@import url("../pages/sports.scss");
+@import url("../pages/sportsStatus.scss");
+
+//Betslip
+@import url("../pages/Betslip.scss");
+@import url("../components/BetCalendar.scss");
+@import url("../components/BetRadio.scss");
+@import url("../components/BetOpen.scss");
+@import url("../components/BetSettled.scss");
+@import url("../components/ViewmoreCard.scss");
+@import url("../pages/CasinoBets.scss");
+@import url("../pages/slotbets.scss");
+@import url("../components/NoData.scss");
+@import url("../pages/mybets.scss");
+@import url('../components/betContainer.scss');
+@import url('../components/basicSelect.scss');
+@import url('../components/collapsedAccordion.scss');
+@import url("../components/calendar.scss");
+
+//exchange
+@import url("../pages/exchange/allSportsExChange.scss");
+@import url("../pages/exchange/horseRace.scss");
+
+@import url('../components/betContainer.scss');
+//Search Page
+@import url("../pages/searchPage.scss");
+
+@import url("../components/ExchangeMatch.scss");
+
+
+@import url("../components/ColorBox.scss");
+@import url("../components/LatestResult.scss");
+@import url("../components/NextRaces.scss");
+@import url("../components/inplay.scss");
+
+@import url('../components/WalletSheet.scss');
+@import url('../components/betSlipBottomSheet.scss');
+@import url('../components/BottomBetSlipCard.scss');
+
+@import url('../components/noBet.scss');
+@import url('../components/betSlipModal.scss');

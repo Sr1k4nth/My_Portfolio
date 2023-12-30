@@ -1,0 +1,45 @@
+@import '../config/variables';
+
+
+@mixin grid_center($align : center, $just : center) {
+    display: grid;
+    align-items: $align;
+    justify-content: $just;
+}
+
+
+@mixin pop_r($font_size : 1em, $font_height: 1.2) {
+    font : #{$font_size}/#{$font_height} $cric_r;
+}
+
+@mixin pop_m($font_size : 1em, $font_height: 1.2) {
+    font : #{$font_size}/#{$font_height} $cric_m;
+}
+
+@mixin pop_sb($font_size : 1em, $font_height: 1.2) {
+    font : #{$font_size}/#{$font_height} $cric_sb;
+}
+
+@mixin pop_b($font_size : 1em, $font_height: 1.2) {
+    font : #{$font_size}/#{$font_height} $cric_b ;
+}
+
+
+@mixin cric_mont_r($font_size : 1em, $font_height: 1.2) {
+    font : #{$font_size}/#{$font_height} $cric_mont_r;
+}
+
+@mixin cric_mont_m($font_size : 1em, $font_height: 1.2) {
+    font : #{$font_size}/#{$font_height} $cric_mont_m;
+}
+
+@mixin cric_mont_sb($font_size : 1em, $font_height: 1.2) {
+    font : #{$font_size}/#{$font_height} $cric_mont_sb;
+}
+
+@mixin cric_mont_b($font_size : 1em, $font_height: 1.2, $font-style : italic) {
+    font : #{$font_size}/#{$font_height} $cric_mont_b ;
+    font-style: $font-style;
+}
+
+
